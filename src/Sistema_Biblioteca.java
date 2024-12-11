@@ -66,7 +66,7 @@ public class Sistema_Biblioteca {
 
     public static void adicionarLivro() {
         System.out.println("\n_______________ADICIONAR LIVRO_______________");
-        boolean continuar = false;   //controle para adicionar varios livros de uma vez
+        boolean continuar;  //controle para adicionar varios livros de uma vez
 
         do {
             System.out.println("\nDigite o título: ");
